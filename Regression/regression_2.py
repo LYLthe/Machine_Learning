@@ -9,5 +9,5 @@ for sample in open("E:\PycharmProjects\machine_learning\_Data\prices.txt", "r"):
 x, y = np.array(x), np.array(y)
 x = (x-x.mean())/x.std()
 plt.figure()
-plt.scatter(x, y, c='r', s=6)
+plt.scatter(x, y, c='r', s=10)
 plt.show()
